@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="AsyncAwaitCounter/MainWindow.axaml" value="AsyncAwaitCounter/AsyncAwaitCounter.csproj" />
+        <entry key="CounterAvalonia/MainWindow.axaml" value="CounterAvalonia/CounterAvalonia.csproj" />
+        <entry key="FlashText/App.axaml" value="FlashText/FlashText.csproj" />
+        <entry key="FlashText/MainWindow.axaml" value="FlashText/FlashText.csproj" />
+        <entry key="MultiThreadedCounter/MainWindow.axaml" value="MultiThreadedCounter/MultiThreadedCounter.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

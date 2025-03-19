@@ -1,0 +1,17 @@
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\Solution.exe
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\alice30.txt
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\Boscombe.txt
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\Snow White.txt
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\Solution.deps.json
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\Solution.runtimeconfig.json
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\Solution.dll
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\bin\Debug\net9.0\Solution.pdb
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\Solution.AssemblyInfoInputs.cache
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\Solution.AssemblyInfo.cs
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\Solution.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\Solution.dll
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\refint\Solution.dll
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\Solution.pdb
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\Solution.genruntimeconfig.cache
+C:\Users\Sarah\OneDrive\SDU\RiderProjects\WordCounting\Solution\obj\Debug\net9.0\ref\Solution.dll

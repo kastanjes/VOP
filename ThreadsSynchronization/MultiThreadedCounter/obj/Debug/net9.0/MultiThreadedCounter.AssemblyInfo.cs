@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreadedCounter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b4282e421672d671e30173283abc6aea94a0efc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd9014b9f7b6ca070e4af5037f97b91aa6f98153")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreadedCounter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreadedCounter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="400"
+        Width="640" Height="400"
+        x:Class="Search_and_Replace.Search_and_Replace.MainWindow"
+        Title="Search_and_Replace">
+        
+        <StackPanel Margin="10">
+                <!-- Search and Replace Section -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="0,0,0,10">
+                        <TextBlock VerticalAlignment="Center" Text="Search" Margin="0,5"/>
+                        <TextBox Name="SearchTextBox" Width="150" Margin="5,0"/>
+                        <TextBlock Name = "ConentTextBox" VerticalAlignment="Center" Text="Replace" Margin="0,5"/>
+                        <TextBox Name="ReplaceTextBox" Width="150" Margin="5,0"/>
+                        <Button Name="ReplaceAllButton" Click="ReplaceButton_Click" Content="Replace All" Width="100" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10,0"/>
+                </StackPanel>
+
+                <!-- TextBox for Content -->
+                <TextBox Name="ContentTextBox" Margin="0,10,0,0" Height="150" AcceptsReturn="True"/>
+                <StackPanel Orientation="Horizontal">
+                        <Button Name="OpenFileButton" Click="OpenFileButton_Click" Content="Open File" Margin="20"></Button>
+                        <Button Name="SaveFileButton" Click="SaveButton_Click" Content="Save as" HorizontalAlignment="Right" Margin="20"></Button>    
+                </StackPanel>
+                
+        </StackPanel>
+        
+</Window>

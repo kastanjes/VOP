@@ -1,0 +1,68 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaExercises.MainWindow"
+        Title="AvaloniaExercises">
+   
+    <TabControl>
+        <TabItem Header="Exercise 1">
+            <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+                <Rectangle Grid.Row="0" Grid.Column="0" Fill="Red"/>
+                <Rectangle Grid.Row="0" Grid.Column="1" Fill="Blue"/>
+                <Rectangle Grid.Row="1" Grid.Column="0" Fill="Green"/>
+                <Rectangle Grid.Row="1" Grid.Column="1" Fill="Yellow"/>
+                <Rectangle Grid.Row="2" Grid.Column="0" Fill="Orange"/>
+                <Rectangle Grid.Row="2" Grid.Column="1" Fill="Purple"/>
+            </Grid>
+        </TabItem>
+
+        <TabItem Header="Exercise 2">
+            <StackPanel Margin="10" Spacing="10">
+                <TextBox Name="Exercise2TextBox"/>
+                <ComboBox Name="Exercise2ComboBox">
+                    <ComboBoxItem>Item 1</ComboBoxItem>
+                    <ComboBoxItem>Item 2</ComboBoxItem>
+                    <ComboBoxItem>Item 3</ComboBoxItem>
+                </ComboBox>
+                <CheckBox Name="Exercise2CheckBox"></CheckBox>
+                <Button Content="Show Output" Click="Exercise2ShowOutput_Click"/>
+                <TextBlock Name="OutputTextBlock" TextWrapping="Wrap"/>
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="Exercise 3">
+            <StackPanel Margin="20" Spacing="10">
+                <TextBlock Text="Choose an animal:" />
+                <RadioButton GroupName="AnimalGroup" Name="BirdRadioButton" Content="Bird" IsChecked="False"></RadioButton>
+                <RadioButton GroupName="AnimalGroup" Name="DogRadioButton" Content="Dog" IsChecked="False"></RadioButton>
+                <RadioButton GroupName="AnimalGroup" Name= "CatRadioButton" Content="Cat" IsChecked="True" />
+                <Image Name="AnimalImage" Width="200" Height="200" /> 
+                
+                <Button Content="Show Image" Click="Exercise3ShowImage_Click" />
+            </StackPanel>
+        </TabItem>
+        
+        <TabItem Header="Exercise 4">
+            <StackPanel>
+                <Label FontSize="20" Margin="5">Enter two numbers:</Label>
+                <Grid ColumnDefinitions="300, 300" RowDefinitions="Auto Auto">
+                <Label Grid.Row="0" Grid.Column="0" FontSize="20" Margin="5">Number 1:</Label>
+                <TextBox Name="TextBoxNumber1" Grid.Row="0" Grid.Column="1"></TextBox>
+                <Label Grid.Row="1" Grid.Column="0" FontSize="20" Margin="5">Number 2:</Label>
+                <TextBox Name="TextBoxNumber2" Grid.Row="1" Grid.Column="1"></TextBox>
+                </Grid>
+                <Label FontSize="20" Margin="0,50,0,0" > Result:</Label>
+                <TextBox Name="Result"></TextBox>
+                <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,20,0,0">
+                    <Button Name="Exercise4Add" FontSize="15" Padding="10" Content="Add" Click="Add_Click"/>
+                    <Button Name="Exercise4Subtract" FontSize="15" Padding="10" Content="Subtract"  Click="Subtract_Click"/>
+                    <Button Name="Exercise4Multiply" FontSize="15" Padding="10" Content="Multiply" Click="Multiply_Click"/>
+                </StackPanel>
+            </StackPanel>
+            
+
+        </TabItem>
+    </TabControl>
+</Window>

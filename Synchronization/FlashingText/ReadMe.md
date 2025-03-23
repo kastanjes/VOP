@@ -1,4 +1,4 @@
-﻿## Animation Control
+﻿x## Animation Control
 
 In this exercise, you need to implement the action handlers for start, stop, and radio buttons for controlling an animation.
 ### Task 1 -  Design GUI: `MainWindow.axaml`
